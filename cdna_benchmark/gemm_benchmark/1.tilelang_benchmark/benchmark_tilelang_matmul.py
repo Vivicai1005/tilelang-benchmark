@@ -23,7 +23,7 @@ def ref_program(A, B):
 def get_configs(args, kwargs):
     block_M = [64, 128, 256]
     block_N = [64, 128, 256]
-    block_K = [64, 128, 256]
+    block_K = [32, 64]
     num_stages = [0, 1, 2, 3, 4]
     thread_num = [128, 256]
     enable_rasteration = [True, False]
