@@ -20,7 +20,7 @@ def ref_program(A, B):
     """
     return A @ B.T
 
-def get_configs():
+def get_configs(args, kwargs):
     block_M = [64, 128, 256]
     block_N = [64, 128, 256]
     block_K = [64, 128, 256]
